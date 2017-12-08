@@ -1,6 +1,3 @@
-f :: Int -> Int
-f x = x + 1
-
 -- we redifine functions so we can create another instance
 newtype Fn a b = Fn (a -> b)
 
