@@ -17,3 +17,7 @@ to convince myself that I *could* indeed use induction on this structure in some
 intuitive way. I did not define a formal ordering on it, but if we look at it
 synctatically we could define subwords or looking at it like a tree we could
 define subtrees and work with that.
+
+I think the answer to the question "What can you not make an instance of `Functor`?"
+is ADTs which have built-in type constraints. I have not figured out any other
+case yet.
