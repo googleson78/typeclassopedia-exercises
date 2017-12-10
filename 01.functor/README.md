@@ -21,3 +21,8 @@ define subtrees and work with that.
 I think the answer to the question "What can you not make an instance of `Functor`?"
 is ADTs which have built-in type constraints. I have not figured out any other
 case yet.
+These however do not match the kind `* -> *`, as they have constraints. I did 
+however come across *Contravariant Functors*, which I have heard of in
+category theory, but have not gotten to yet. Looking at the idea however it
+makes me a bit annoyed that the normal `Functor`s are called just `Functor`s
+instead of `CovariantF` or something of that sort.
